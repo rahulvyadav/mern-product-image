@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+} */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.colorful-form {
+  max-width: 688px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #add9ff;
+  border-radius: 83px 0px;
+  transition: 0.4s ease-in-out;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  height: 686px;
+  padding-top: 2.4em;
+  padding-bottom: 3.4em;
+  box-shadow: 18px 28px 28px 4px #000000;
+}
+
+/* .form-group {
+  margin-bottom: 20px;
+} */
+
+.form-button {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  background-color: #1e2f36;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #424244;
+}
+
+p {
+  color: red;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.productTable {
+  width: 85%;
+  margin: auto;
+}
+
+.productimage {
+  width: 38%;
+  border: 2px solid rgba(0, 140, 186, 0.5);
+  border-radius: 4px;
+}
+
+.productimage:hover {
+  box-shadow: 0 0 2px 2px rgba(0, 59, 186, 0.5);
+}
+
+.deletebutton {
+  text-align: right !important;
+  left: 78%;
+}
+.searchbar {
+  text-align: right !important;
+  left: 68%;
+}
+
+.head {
+  font-weight: 600;
+  color: #000000;
+}
+
+.homeheadName {
+  color: #00aaff;
+}
+
+.homehead {
+  color: #000000;
+  text-align: center;
+}

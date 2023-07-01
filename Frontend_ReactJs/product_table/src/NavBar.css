@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+:root {
+  --primary: #111;
+  --secondary: #00aaff;
+  --bg: #f0f8ff;
+  --border: #aaa;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  padding: 0 50px;
+  font-size: 1.5em;
+}
+.top .links .active {
+  text-decoration: none;
+  color: var(--primary);
+  transition: 0.5s;
+}
+
+.active {
+  text-decoration: none;
+  color: var(--primary);
+  transition: 0.5s;
+}
+
+.top .links .active {
+  color: var(--secondary);
+}
+
+.active {
+  color: var(--secondary);
+}
+
+.top .head {
+  font-weight: 600;
+}
+.top .head span {
+  color: var(--secondary);
+}
+/* .top .search i {
+  transition: 0.5s;
+  padding-right: 10px;
+} */
+/* .top .search i:hover {
+  color: var(--secondary);
+  cursor: pointer;
+} */
+/* .top .search .hamburger {
+  display: none;
+} */
+.header {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #ffffff;
+}
+.header .navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  position: relative;
+}
+.header .navigation li a {
+  text-decoration: none;
+  color: var(--primary);
+  padding: 5px 40px;
+  transition: 0.3s ease-in-out;
+  border-bottom: 2px solid #fff;
+  left: 0;
+}
+.header .navigation li a:hover {
+  border-bottom: 2px solid var(--secondary);
+}
+
+.active {
+  color: rgb(27, 68, 253) !important;
+  border-bottom: 3px solid rgb(4, 0, 255) !important;
+}
+
+.banner {
+  margin: 20px 0px;
+}
+.banner swiper-container {
+  width: 100%;
+  height: 80vh;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide .imgbx img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+swiper-slide .text {
+  position: absolute;
+  color: #fff;
+  top: 70%;
+}
+section {
+  padding: 40px 30px;
+}
