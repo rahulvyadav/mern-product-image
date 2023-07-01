@@ -1,0 +1,28 @@
+{
+  "name": "backend_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahul",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.15.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodeman": "^1.1.2",
+    "yup": "^1.2.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/multer": "^1.4.7",
+    "prisma": "^4.15.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
